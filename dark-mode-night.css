@@ -1,0 +1,40 @@
+/* Leaf_Supply version */
+
+[data-theme="dark"] {
+  background-color: #121212 !important;
+  color: #FBFCFC;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #333 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #000 !important;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #eee !important;
+}
+
+[data-theme="dark"] .card {
+  background-color: #1B2631  !important;
+  color: white;
+}
+
+[data-theme="dark"] footer {
+  background-color: #1B2631  !important;
+  color: white;
+}
+
+[data-theme="dark"] .custom-control-label {
+  color: white;
+}
+
+[data-theme="dark"] .hamburger-menu { 
+			  background-color: #1C2833 !important;
+  			  color: white;
+		}
+
+
+

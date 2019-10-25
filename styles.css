@@ -1,0 +1,393 @@
+	/* Katschmarsky */
+
+	html {
+	   	font-family: -apple-system, BlinkMacSystemFont, 
+	    "Segoe UI", "Roboto", "Oxygen", 
+	    "Ubuntu", "Cantarell", "Fira Sans", 
+	    "Droid Sans", "Helvetica Neue", sans-serif;
+
+	  font-size: 18px;
+	  line-height: 27px;
+	  font-weight: 300;
+	  color: #121212;
+	}
+
+	p {
+	  font-size: 18px;
+	  line-height: 25px;
+	  font-weight: 300;
+	  color: #121212;
+	}
+
+	main {
+		margin: 0px 70px;
+	}
+
+	nav {
+		border: 0px solid green;
+	}
+
+	footer {
+		background-color: #F7F9F9;
+		padding: 25px 0px;
+		margin-top: 100px;
+		padding-right: 70px;
+	}
+
+	footer a {
+		font-size: 0.75rem;
+	}
+
+	ul {
+		display: flex;
+		/* flex-direction: row;
+		justify-content: center;
+		align-items: center; */
+	}
+
+	h1 {
+		font-size: 4em;
+		font-weight: 700;
+		line-height: 4rem;
+		margin-bottom: 2rem;
+	}
+
+	a {
+		color: #1E8449;
+		transition-duration: 0.2s;
+	}
+
+	a:hover {
+		color: #82E0AA;
+		cursor: pointer;
+	}
+
+	a:focused {
+		border: 0px solid green;
+	}
+
+	.container {
+		border: 0px solid blue;
+		display: flex;
+		padding: 0px;
+	}
+
+	.container-fluid {
+		border: 0px solid orange;
+		display: flex;
+		padding: 0px;
+	}
+
+	.navbar {
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.hamburger-menu {
+		display: none;
+	}
+
+	.custom-switch {
+		padding-left: 75px;
+	}
+
+
+	.navbar-toggler {
+		color: #1E8449;
+	}
+	
+	.p-4 {
+		margin-left: -15px;
+	}
+
+	.img-fluid {
+		border: 0px solid purple;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	#read-more {
+	  	justify-content: flex-end;
+	}
+
+	#case-studies {
+		margin: 2rem 0rem;
+	}
+
+	.section-icon {
+		width: 48px;
+		margin: 15px 0px;
+		height: auto;
+	}
+
+	.card {
+		width: 32%;
+		border: none;
+	}
+
+
+	.custom-control-label {
+		border: 0px solid grey;
+		width: 100%;
+	}
+
+	.fab {
+		font-size: 1.5rem;
+		margin-right: 0.5rem;
+		color: #1E8449;
+	}
+
+	.fab:hover {
+		color: #82E0AA;
+		cursor: pointer;
+	}
+
+	#aqua {
+		display: none;
+	}
+
+	iframe {
+		margin: 100px 25px;
+
+	}
+
+	#orange {
+		width: 100%;
+		padding: 0px 70px;
+	}
+
+	#jumbotron {
+		border: 0px solid red;
+		margin-bottom: 150px;
+	 	margin-top: 25px;
+
+	}
+
+	#contact {
+		width: 75%;
+	}
+
+	.email-address {
+		margin-top: 2rem;
+	}
+
+	.email-address p {
+		font-size: 1.5rem;
+		font-weight: 500;
+		color: #1E8449;
+		line-height: 0.75rem;
+	}
+
+	#footer-nav {
+		display: flex;
+	}
+
+
+	/* Responsive version */
+
+	@media (max-width: 575.98px) { 
+	  
+		main {
+			margin: 0px 15px;
+		}
+
+		.container-fluid {
+			margin: 0px 0px;
+		}
+
+		.nav {
+			display: none;
+		}
+
+
+	  #jumbotron {
+	  	flex-direction: column-reverse;
+	  	margin-top: 25px;
+	  }
+
+	  .align-items-center {
+	  	flex-direction: column;
+	  }
+
+	  .justify-content-sm-between {
+	  	flex-direction: column;
+	  }
+
+	  .justify-content-end {
+	  	justify-content: flex-start;
+	  	align-items: flex-start;
+	  	text-align: left;
+	  }
+
+	  #read-more {
+	  	justify-content: flex-start;
+	  }
+
+	  .card {
+	  	width: 100%;
+	  	margin: 0px 0px 25px 0px;
+	  }
+
+
+	  .justify-content-sm-between {
+	  	align-items: center;
+	  }
+
+	  #red {
+	  	display: none;
+	  }
+
+	  .nav {
+	  	display: none;
+	  }
+
+	  #blue {
+	  	justify-content: space-between;
+	  	align-items: center;
+	  }
+
+	  .fuck {
+	  	display: none;
+	  }
+
+	  .hamburger-menu {
+	  	display: block;
+	  }
+
+	  	.navbar-toggler {
+		display: block;
+	}
+
+	#orange {
+		justify-content: space-between;
+		flex-direction: row;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+		background-color: #F8F9F9;	
+	}
+
+	#hamburger-day-mode-switch {
+		display: none;
+	}
+
+	#aqua {
+		display: block;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.custom-control-label {
+		width: 100px;
+	}
+
+	.img-fluid {
+		padding: 5% 25% 10% 25%;
+
+	}
+}
+
+
+@media (max-width: 767.98px) { 
+	  
+		main {
+			margin: 0px 15px;
+		}
+
+		.container-fluid {
+			margin: 0px 0px;
+		}
+
+		.nav {
+			display: none;
+		}
+
+
+	  #jumbotron {
+	  	flex-direction: column-reverse;
+	  	margin-top: 25px;
+	  }
+
+	  .align-items-center {
+	  	flex-direction: column;
+	  }
+
+	  .justify-content-sm-between {
+	  	flex-direction: column;
+	  }
+
+	  .justify-content-end {
+	  	justify-content: flex-start;
+	  	align-items: flex-start;
+	  	text-align: left;
+	  }
+
+	  #read-more {
+	  	justify-content: flex-start;
+	  }
+
+	  .card {
+	  	width: 100%;
+	  	margin: 0px 0px 25px 0px;
+	  }
+
+
+	  .justify-content-sm-between {
+	  	align-items: center;
+	  }
+
+	  #red {
+	  	display: none;
+	  }
+
+	  .nav {
+	  	display: none;
+	  }
+
+	  #blue {
+	  	justify-content: space-between;
+	  	align-items: center;
+	  }
+
+	  .fuck {
+	  	display: none;
+	  }
+
+	  .hamburger-menu {
+	  	display: block;
+	  }
+
+	  	.navbar-toggler {
+		display: block;
+	}
+
+	#orange {
+		justify-content: space-between;
+		flex-direction: row;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+		background-color: #F8F9F9;	
+	}
+
+	#hamburger-day-mode-switch {
+		display: none;
+	}
+
+	#aqua {
+		display: block;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.custom-control-label {
+		width: 100px;
+	}
+
+	.img-fluid {
+		padding: 5% 25% 10% 25%;
+
+	}
+}
+
