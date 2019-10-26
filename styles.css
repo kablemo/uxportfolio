@@ -102,9 +102,9 @@
 	}
 
 	.img-fluid {
-		border: 0px solid purple;
-		padding-left: 2rem;
-		padding-right: 2rem;
+		border: 1px solid pink;
+		max-width: 100%;
+		height: auto;
 	}
 
 	#read-more {
