@@ -102,9 +102,19 @@
 	}
 
 	.img-fluid {
-		max-width: 100%;
-		width: 100%;
+		width: 80%;
 		height: auto;
+	}
+
+	#jumbotron-image {
+		width: 100%;
+		text-align: right;
+	}
+
+	#jumbotron {
+		border: 0px solid red;
+		margin-bottom: 150px;
+	 	margin-top: 50px;
 	}
 
 	#read-more {
@@ -157,13 +167,6 @@
 		padding: 0px 70px;
 	}
 
-	#jumbotron {
-		border: 0px solid red;
-		margin-bottom: 150px;
-	 	margin-top: 25px;
-
-	}
-
 	#contact {
 		width: 75%;
 	}
@@ -206,6 +209,10 @@
 	  	margin-top: 25px;
 	  }
 
+	  	#jumbotron-image {
+		width: 75%;
+		text-align: center;
+	}
 	  .align-items-center {
 	  	flex-direction: column;
 	  }
@@ -305,6 +312,10 @@
 	  	margin-top: 25px;
 	  }
 
+	  	  	#jumbotron-image {
+		width: 75%;
+		text-align: center;
+	}
 	  .align-items-center {
 	  	flex-direction: column;
 	  }
