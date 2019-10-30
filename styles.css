@@ -159,7 +159,8 @@
 
 	iframe {
 		margin: 100px 25px;
-
+		width: 560px;
+		height: 315px;
 	}
 
 	#orange {
@@ -193,6 +194,11 @@
 	  
 		main {
 			margin: 0px 15px;
+		}
+
+		iframe {
+			width: 80%;
+			height: auto;
 		}
 
 		.container-fluid {
@@ -289,6 +295,10 @@
 		width: 100px;
 	}
 
+		.email-address {
+		font-size: 1.25em;
+	}
+
 }
 
 
@@ -296,6 +306,11 @@
 	  
 		main {
 			margin: 0px 15px;
+		}
+
+		iframe {
+			width: 80%;
+			height: auto;
 		}
 
 		.container-fluid {
@@ -390,6 +405,10 @@
 
 	.custom-control-label {
 		width: 100px;
+	}
+
+	.email-address {
+		font-size: 1.25em;
 	}
 
 }
