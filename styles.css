@@ -102,7 +102,6 @@
 	}
 
 	.img-fluid {
-		border: 1px solid yellow;
 		max-width: 100%;
 		width: 100%;
 		height: auto;
@@ -283,10 +282,6 @@
 		width: 100px;
 	}
 
-	.img-fluid {
-		padding: 5% 25% 10% 25%;
-
-	}
 }
 
 
@@ -386,9 +381,5 @@
 		width: 100px;
 	}
 
-	.img-fluid {
-		padding: 5% 25% 10% 25%;
-
-	}
 }
 
